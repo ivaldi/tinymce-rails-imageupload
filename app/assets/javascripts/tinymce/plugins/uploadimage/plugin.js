@@ -231,6 +231,10 @@
         if (defaultClass !== '') {
           imgstr += " class='" + defaultClass + ' ' + selectedClass + "'";
         }
+        
+        if (image['data']) {
+          imgstr += " data-id='" + image['data'] + "'";
+        }
 
         if (image['height']) {
           imgstr += " height='" + image['height'] + "'";
