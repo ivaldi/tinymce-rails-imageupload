@@ -244,6 +244,8 @@
         }
 
         imgstr += " alt='" + altText + "'/>";
+        
+        console.log(imgstr);
 
         if (figure) {
           var figureClass = ed.getParam('uploadimage_figure_class', 'figure');
